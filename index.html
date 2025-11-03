@@ -216,6 +216,10 @@
         color: var(--primary);
       }
 
+      .logo-code {
+        color: var(--secondary);
+      }
+
       .nav-links {
         display: flex;
         list-style: none;
@@ -673,7 +677,8 @@
       }
 
       @keyframes float {
-        0%, 100% {
+        0%,
+        100% {
           transform: translateY(0) rotate(0deg);
         }
         50% {
@@ -902,7 +907,7 @@
         <nav class="navbar">
           <div class="logo">
             <img src="assets/LogoSinFondoYLetras.png" alt="CondorCode" class="logo-img" />
-            <span class="logo-text">CondorCode</span>
+            <span class="logo-text">Condor<span class="logo-code">Code</span></span>
           </div>
           <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
@@ -1194,7 +1199,7 @@
 
     <script>
       // Set current year dynamically
-      document.getElementById('current-year').textContent = new Date().getFullYear();
+      document.getElementById("current-year").textContent = new Date().getFullYear();
 
       // Loading screen
       window.addEventListener("load", function () {
@@ -1278,14 +1283,14 @@
       // Intersection Observer for counter animation
       const observerOptions = {
         threshold: 0.5,
-        rootMargin: "0px 0px -100px 0px"
+        rootMargin: "0px 0px -100px 0px",
       };
 
       const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const counters = entry.target.querySelectorAll(".stat-number");
-            counters.forEach(counter => {
+            counters.forEach((counter) => {
               const target = parseInt(counter.dataset.target);
               animateCounter(counter, target);
             });
