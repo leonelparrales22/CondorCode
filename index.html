@@ -1160,7 +1160,12 @@
         <div class="cta-content">
           <h2>¿Listo para transformar tu negocio?</h2>
           <p>Contáctame hoy mismo para discutir tu proyecto y recibir una cotización personalizada sin compromiso.</p>
-          <a href="mailto:leonelparrales22@gmail.com" class="btn">Solicitar Cotización</a>
+          <a
+            href="https://wa.me/593980005123?text=Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20servicios%20de%20desarrollo%20de%20software%20de%20CondorCode.%20%C2%BFPodr%C3%ADas%20enviarme%20una%20cotizaci%C3%B3n%20personalizada%3F"
+            class="btn"
+            target="_blank"
+            >Solicitar Cotización</a
+          >
         </div>
       </div>
     </section>
@@ -1282,10 +1287,18 @@
       }
 
       // Intersection Observer for counter animation
-      const observerOptions = {
-        threshold: 0.5,
-        rootMargin: "0px 0px -100px 0px",
-      };
+      let observerOptions;
+      if (window.innerWidth <= 768) {
+        observerOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px 0px 0px",
+        };
+      } else {
+        observerOptions = {
+          threshold: 0.5,
+          rootMargin: "0px 0px -100px 0px",
+        };
+      }
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
