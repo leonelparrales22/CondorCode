@@ -901,7 +901,7 @@
       <div class="container">
         <nav class="navbar">
           <div class="logo">
-            <img src="assets/Logo.png" alt="CondorCode" class="logo-img" />
+            <img src="assets/LogoSinFondoYLetras.png" alt="CondorCode" class="logo-img" />
             <span class="logo-text">CondorCode</span>
           </div>
           <ul class="nav-links">
@@ -931,7 +931,7 @@
         <div class="hero-content">
           <h1>Soluciones de Software a la Medida</h1>
           <p>
-            Entiendo que en el día a día pueden surgir desafíos operativos que consumen tiempo y recursos valiosos. Mi misión es ayudarte a automatizar procesos, optimizar tareas y potenciar tu negocio a través de tecnología accesible y efectiva.
+            Entendemos que en el día a día pueden surgir desafíos operativos que consumen tiempo y recursos valiosos. Mi misión es ayudarte a automatizar procesos, optimizar tareas y potenciar tu negocio a través de tecnología accesible y efectiva.
           </p>
 
           <div class="hero-highlights">
@@ -977,7 +977,7 @@
             <p>Creemos en la tecnología como un habilitador de crecimiento, y nos especializamos en transformar procesos complejos en sistemas intuitivos y eficientes.</p>
           </div>
           <div class="about-image">
-            <img src="assets/Logo.png" alt="Equipo de CondorCode" />
+            <img src="assets/LogoSinFondo.png" alt="Equipo de CondorCode" />
           </div>
         </div>
       </div>
@@ -1165,10 +1165,10 @@
         <div class="footer-content">
           <div class="footer-about">
             <div class="footer-logo">
-              <img src="assets/Logo.png" alt="CondorCode" class="footer-logo-img" />
+              <img src="assets/LogoSinFondoYLetras.png" alt="CondorCode" class="footer-logo-img" />
               <span class="footer-logo-text">CondorCode</span>
             </div>
-            <p>Desarrollo soluciones de software a la medida para potenciar tu negocio y optimizar tus procesos operativos.</p>
+            <p>Desarrollamos soluciones de software a la medida para potenciar tu negocio y optimizar tus procesos operativos.</p>
           </div>
           <div class="footer-contact">
             <h3>Contacto</h3>
@@ -1187,12 +1187,15 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2023 CondorCode. Todos los derechos reservados.</p>
+          <p>&copy; <span id="current-year"></span> CondorCode. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
 
     <script>
+      // Set current year dynamically
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
       // Loading screen
       window.addEventListener("load", function () {
         setTimeout(function () {
