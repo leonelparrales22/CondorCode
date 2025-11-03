@@ -1,0 +1,38 @@
+Generame un website (landingpage) que se vea moderno y confiable lo que quiero es promocionar mis servicios de programar software a la medida.
+
+Para tener un mayor conetexto sería algo como esto (puedes usar como base, puedes aumentar mas cosas):
+
+Entiendo que en el día a día pueden surgir desafíos operativos que consumen tiempo y recursos valiosos. Mi misión es ayudarte a automatizar procesos, optimizar tareas y potenciar tu negocio a través de tecnología accesible y efectiva.
+
+🚀 ¿Qué puedo desarrollar para ti?
+Sistemas de Gestión Interna: Control de inventario, ventas, facturación y reportes automáticos.
+
+Páginas Web Profesionales: Diseño moderno, rápido y adaptable a todos los dispositivos.
+
+Aplicaciones Móviles Simples: Ideales para consultas, catálogos o gestiones básicas desde cualquier lugar.
+
+Soluciones a Medida: Desarrolladas exclusivamente para resolver problemas específicos de tu negocio.
+
+✅ Mi compromiso contigo
+Código limpio y escalable 🧹
+
+Entregas en tiempo y forma ⏱
+
+Soporte continuo post-implementación 🛠
+
+Transparencia total durante el desarrollo 🔓
+
+Precios justos y sin letras chiquitas 💚
+
+
+Datos personales de la empresa: CondorCode
+email: leonelparrales22@gmail.com
+telefono: +593980005123
+
+El logo de la empresa está en asset/Logo.png
+También hay una imagen LogoSinFondo.png esa quiero que la utilices cuanto abras la pagina y esté en loading si muestre el logotipo con alguna animacíón de cargando.
+
+
+Gama de colores recomendado:
+principales #344365 #91b04a
+secundarios: #4b877b  #4e4e4e   #b3a565
