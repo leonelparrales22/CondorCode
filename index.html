@@ -578,16 +578,10 @@
         gap: 30px;
       }
 
-      /* Solución para evitar cards solas en 1080p */
-      @media (min-width: 1024px) and (max-width: 1400px) {
+      /* Solución para evitar cards solas en pantallas anchas */
+      @media (min-width: 1400px) {
         .commitment-grid {
           grid-template-columns: repeat(2, 1fr);
-        }
-
-        .commitment-grid .commitment-item:nth-child(5) {
-          grid-column: span 2;
-          max-width: 50%;
-          justify-self: center;
         }
       }
 
@@ -1004,7 +998,7 @@
               <i class="fas fa-broom"></i>
             </div>
             <h3>Código Limpio y Escalable</h3>
-            <p>Desarrollo siguiendo las mejores prácticas para garantizar software mantenible y de calidad.</p>
+            <p>Desarrollamos siguiendo las mejores prácticas para garantizar software mantenible y de calidad.</p>
           </div>
           <div class="commitment-item">
             <div class="commitment-icon">
@@ -1033,6 +1027,13 @@
             </div>
             <h3>Precios Justos</h3>
             <p>Tarifas competitivas sin letras pequeñas ni costos ocultos.</p>
+          </div>
+          <div class="commitment-item">
+            <div class="commitment-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Innovación Constante</h3>
+            <p>Mantenemos nuestros conocimientos actualizados con las últimas tendencias tecnológicas para ofrecerte soluciones modernas y eficientes.</p>
           </div>
         </div>
       </div>
